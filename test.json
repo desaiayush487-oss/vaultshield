@@ -1,0 +1,16 @@
+[
+  {
+    "id": 1,
+    "name": "Rahul Sharma",
+    "email": "rahul.sharma@gmail.com",
+    "phone": "+919876543210",
+    "role": "Developer"
+  },
+  {
+    "id": 2,
+    "name": "Priya Patel",
+    "email": "priya.patel@yahoo.com",
+    "phone": "+919123456789",
+    "role": "Designer"
+  }
+]
