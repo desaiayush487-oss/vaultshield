@@ -29,7 +29,7 @@ export default function App() {
 
   const fetchAuditLogs = async () => {
     try {
-      const res = await fetch('https://vaultshield-backend.onrender.com/api/v1/audits');
+      const res = await fetch('https://vaultshield-6mkn.onrender.com/api/v1/audits');
       const data = await res.json();
       if (data.success) setAuditHistory(data.audits);
     } catch (err) {
@@ -59,7 +59,7 @@ export default function App() {
       : { email: authEmail, password: authPassword };
 
     try {
-      const res = await fetch(`http://localhost:5000${endpoint}`, {
+      const res = await fetch(`https://vaultshield-6mkn.onrender.com${endpoint}`, {
         method: 'POST',
         headers: { 'Content-Type': 'application/json' },
         body: JSON.stringify(payload)
@@ -103,7 +103,7 @@ export default function App() {
     formData.append('strategy', strategy);
 
     try {
-      const response = await fetch('http://localhost:5000/api/v1/sanitize', {
+      const response = await fetch('https://vaultshield-6mkn.onrender.com/api/v1/sanitize', {
         method: 'POST',
         body: formData,
       });
@@ -603,4 +603,4 @@ export default function App() {
       </div>
     </div>
   );
-} 
+}
