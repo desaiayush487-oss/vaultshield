@@ -29,7 +29,7 @@ export default function App() {
 
   const fetchAuditLogs = async () => {
     try {
-      const res = await fetch('http://localhost:5000/api/v1/audits');
+      const res = await fetch('https://vaultshield-backend.onrender.com/api/v1/audits');
       const data = await res.json();
       if (data.success) setAuditHistory(data.audits);
     } catch (err) {
