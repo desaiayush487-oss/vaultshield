@@ -73,6 +73,7 @@ app.post('/api/v1/sanitize', upload.single('file'), async (req, res) => {
   try {
     let rawData;
     let fileName = req.file ? req.file.originalname : 'inline_payload.json';
+    const strategy = req.body.strategy || 'pseudonymize'; // <-- Moved up here!
 
     if (req.file) {
       const fileExtension = fileName.split('.').pop().toLowerCase();
@@ -93,8 +94,6 @@ app.post('/api/v1/sanitize', upload.single('file'), async (req, res) => {
 
     const sanitizedData = maskData(rawData, strategy);
     const totalRows = Array.isArray(rawData) ? rawData.length : 1;
-    const strategy = req.body.strategy || 'pseudonymize';
-    
 
     // Save audit log to MongoDB
     const auditRecord = new AuditLog({

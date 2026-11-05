@@ -1,16 +1,67 @@
 [
   {
-    "id": 1,
-    "name": "Rahul Sharma",
-    "email": "rahul.sharma@gmail.com",
-    "phone": "+919876543210",
-    "role": "Developer"
+    "user_id": "USR-84920",
+    "full_name": "Ayush Desai",
+    "email": "ayush.desai@example.com",
+    "phone": "+91 98765 43210",
+    "ssn_tax_id": "234-56-7890",
+    "credit_card": "4532-8921-1049-5832",
+    "ip_address": "192.168.1.45",
+    "address": "124 Marine Drive, Mumbai, MH",
+    "account_balance": 15420.50,
+    "role": "Admin",
+    "status": "Active"
   },
   {
-    "id": 2,
-    "name": "Priya Patel",
-    "email": "priya.patel@yahoo.com",
-    "phone": "+919123456789",
-    "role": "Designer"
+    "user_id": "USR-84921",
+    "full_name": "Rohan Sharma",
+    "email": "rohan.sharma@techcorp.in",
+    "phone": "+91 98123 45678",
+    "ssn_tax_id": "987-65-4321",
+    "credit_card": "5412-7534-9012-3456",
+    "ip_address": "10.0.0.12",
+    "address": "45 MG Road, Bengaluru, KA",
+    "account_balance": 8200.00,
+    "role": "Engineer",
+    "status": "Active"
+  },
+  {
+    "user_id": "USR-84922",
+    "full_name": "Priya Patel",
+    "email": "priya.patel@security.org",
+    "phone": "+91 97234 56789",
+    "ssn_tax_id": "456-78-9012",
+    "credit_card": "3782-8224-6310-0054",
+    "ip_address": "172.16.254.1",
+    "address": "88 Ring Road, Ahmedabad, GJ",
+    "account_balance": 24900.75,
+    "role": "Security Auditor",
+    "status": "Active"
+  },
+  {
+    "user_id": "USR-84923",
+    "full_name": "Ananya Sen",
+    "email": "ananya.sen@analytics.io",
+    "phone": "+91 96345 67890",
+    "ssn_tax_id": "654-32-1098",
+    "credit_card": "4012-8833-2211-9988",
+    "ip_address": "192.168.2.110",
+    "address": "12 Park Street, Kolkata, WB",
+    "account_balance": 3150.25,
+    "role": "Analyst",
+    "status": "Suspended"
+  },
+  {
+    "user_id": "USR-84924",
+    "full_name": "Vikram Malhotra",
+    "email": "vikram.m@enterprise.com",
+    "phone": "+91 95456 78901",
+    "ssn_tax_id": "321-09-8765",
+    "credit_card": "6011-0045-8822-1133",
+    "ip_address": "10.200.1.5",
+    "address": "77 Connaught Place, New Delhi, DL",
+    "account_balance": 45100.00,
+    "role": "Manager",
+    "status": "Active"
   }
 ]
